@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Примеры. Размещение карты на странице.</title>
+    <!--
+        Подключаем API карт
+        Параметры:
+          - load=package.standard - основные компоненты;
+	      - lang=ru-RU - язык русский.
+    -->
+    <script src="https://api-maps.yandex.ru/2.1/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
+	  <script src="mapbasics.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <!-- <form class="form" onsubmit="return enter()" method="post">
+    Введите город: <input type="text" name="sity" value="сюда">
+    <input type="submit" value="Ваш ход">
+  </form> -->
+
+  <div id="map" style="width:400px; height:300px"></div>
+</body>
+
+</html>
